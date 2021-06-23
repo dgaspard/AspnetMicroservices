@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ordering.Application.Models
 {
-    class Email
+    public class Email
     {
         public string To { get; set; }
         public string Subject { get; set; }
