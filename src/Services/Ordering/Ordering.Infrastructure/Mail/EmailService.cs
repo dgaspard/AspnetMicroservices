@@ -22,6 +22,8 @@ namespace Ordering.Infrastructure.Mail
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _emailSettings = emailSettings.Value ?? throw new ArgumentNullException(nameof(logger));
         }
+        
+        //I don't have an email server. API Key will be null. This will throw an error. That error is swolled and logged in the email controller. 
         public async Task<bool> SendEmail(Email email)
         {
             var client = new SendGridClient(_emailSettings.ApiKey);
