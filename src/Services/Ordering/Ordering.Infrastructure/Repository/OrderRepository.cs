@@ -1,18 +1,19 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 using Ordering.Application.Contracts.Persistence;
 using Ordering.Domain.Entities;
 using Ordering.Infrastructure.Persistence;
+using Ordering.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace Ordering.Infrastructure.Repository
+namespace Ordering.Infrastructure.Repositories
 {
-    class OrderRepository : RepositoryBase<Order>, IOrderRepository
+    public class OrderRepository : RepositoryBase<Order>, IOrderRepository
     {
-
-        //do not remove. needed for base class context dependency injection.
         public OrderRepository(OrderContext dbContext) : base(dbContext)
         {
         }

@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Ordering.Application.Features.Orders.Commands.CheckoutOrder
 {
-    class CheckoutOrderCommandHandler : IRequestHandler<CheckoutOrderCommand, int>
+    public class CheckoutOrderCommandHandler : IRequestHandler<CheckoutOrderCommand, int>
     {
         private readonly IOrderRepository _orderRepository;
         private readonly IMapper _mapper;

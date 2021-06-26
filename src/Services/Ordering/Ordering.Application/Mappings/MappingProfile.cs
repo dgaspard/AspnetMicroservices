@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace Ordering.Application.Mappings
 {
-    class MappingProfile : Profile
+    public class MappingProfile : Profile
     {
-        MappingProfile()
+        public MappingProfile()
         {
             CreateMap<Order, OrdersVm>().ReverseMap();
             CreateMap<Order, CheckoutOrderCommand>().ReverseMap();
