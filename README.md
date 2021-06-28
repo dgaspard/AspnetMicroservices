@@ -1,9 +1,9 @@
 # AspnetMicroservices
 AspnetMicroservices
 
-Implemeneted - Rabbit MQ, Mongo DB, Redis, PostgresSQL, SQL Server, Catalog.API, Basket.API,Discount.Grpc, ordering-api .
+Implemeneted - Rabbit MQ, Mongo DB, Redis, PostgresSQL, SQL Server, Catalog.API, Basket.API,Discount.Grpc, ordering-api, rabbit mq and mass transit between basket.api and ordering.api
 
-In-progress - rabbit mq and mass transit between services
+In-progress - API Gateway
 
 On the horizon
 WebStatus Healthchecks, API Gateway, and Client Aps
