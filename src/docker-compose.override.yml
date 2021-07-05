@@ -119,7 +119,6 @@ services:
     ports:
       - "8004:80"
 
-
   ocelotapigw:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
