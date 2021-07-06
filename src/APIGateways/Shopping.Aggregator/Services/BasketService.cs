@@ -1,4 +1,5 @@
-﻿using Shopping.Aggregator.Extensions;
+﻿using Shopping.Aggregator;
+using Shopping.Aggregator.Extensions;
 using Shopping.Aggregator.Models;
 using System;
 using System.Collections.Generic;
