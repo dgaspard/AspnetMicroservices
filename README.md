@@ -1,7 +1,8 @@
 # AspnetMicroservices
 AspnetMicroservices
 
-to Run 
+**Run** 
+
 docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
 Implemeneted - Rabbit MQ, Mongo DB, Redis, PostgresSQL, SQL Server, Catalog.API, Basket.API,Discount.Grpc, ordering-api, rabbit mq and mass transit between basket.api and ordering.api, API Gateway, Client Aps
