@@ -12,6 +12,11 @@ namespace AspnetRunBasics.Services
     {
         private readonly HttpClient _client;
 
+        public CatalogService(HttpClient client)
+        {
+            _client = client ?? throw new ArgumentNullException(nameof(client));
+        }
+
         public async Task<IEnumerable<CatalogModel>> GetCatalog()
         {
             var response = await _client.GetAsync("/Catalog");
