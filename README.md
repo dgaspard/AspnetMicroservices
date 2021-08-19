@@ -16,7 +16,7 @@ http://localhost:8005/swagger/index.html - shopping aggregator
 
 http://localhost:8006 - aspnetWeb (FrontEnd)
 
-Implemeneted - Rabbit MQ, Mongo DB, Redis, PostgresSQL, SQL Server, Catalog.API, Basket.API,Discount.Grpc, ordering-api, rabbit mq and mass transit between basket.api and ordering.api, API Gateway, Client Aps
+Implemented - Rabbit MQ, Mongo DB, Redis, PostgresSQL, SQL Server, Catalog.API, Basket.API,Discount.Grpc, ordering-api, rabbit mq and mass transit between basket.api and ordering.api, API Gateway, Client Aps
 
 
 In-progress - 
